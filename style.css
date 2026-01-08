@@ -1,18 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f8f8f8;
+    background-color: #1f1d1d;
     
     
     font-family: Arial, sans-serif;
     margin: 0;
     /* Background image */
-    background-image: url("../images/4.jpg");
+    
+    background-image:  url("../images/4.jpg");
     background-size: cover;     /* Makes it cover the entire screen */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps background fixed while scrolling */
     background-position: center;  /* Centers the image */
-    color: #0f0e0e; /* Optional: white text to show on dark backgrounds */
+    color: #050505; /* Optional: white text to show on dark backgrounds */
 
 }
 
@@ -54,15 +55,16 @@ header {
 .button {
     background-color:none;
     border: none;
-    color: rgb(29, 27, 27);
+    color: rgb(14, 13, 13);
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
      text-decoration: none;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.6);
 }
 
 .button:hover {
-    background-color: #e85b2f;
+    background-color: #000000;
 }
 
 #recipe-details {
@@ -75,3 +77,5 @@ header {
 .content {
      padding: 15px; 
 }
+
+  
